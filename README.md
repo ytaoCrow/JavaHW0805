@@ -17,6 +17,7 @@ http://localhost:8080/order/1
 
 ##請先 call Create Order 用以下 Json 去新增一筆餐點為：
 1. 
+```=json
 {
     "seq": 1,
     "totalPrice": 2500,
@@ -29,6 +30,7 @@ http://localhost:8080/order/1
         }
     ]
 }
+```
 
 2. 測試 Get All Order api 與 Get Order Id api
 

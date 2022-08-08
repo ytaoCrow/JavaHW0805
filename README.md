@@ -1,21 +1,21 @@
 # JavaHW0805
 
-#Get All Order
+# Get All Order
 http://localhost:8080/order
 
-#Get Order Id
+# Get Order Id
 http://localhost:8080/order/1
 
-#Create Order
+#C reate Order
 http://localhost:8080/order
 
-#Update Order
+#U pdate Order
 http://localhost:8080/order/1
 
-#Delete Order
+# Delete Order
 http://localhost:8080/order/1
 
-##請先 call Create Order 用以下 Json 去新增一筆餐點為：
+## 請先 call Create Order 用以下 Json 去新增一筆餐點為：
 1. 
 ```=json
 {

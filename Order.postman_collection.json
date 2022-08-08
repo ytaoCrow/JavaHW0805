@@ -31,7 +31,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/order/4",
+					"raw": "http://localhost:8080/order/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -39,7 +39,7 @@
 					"port": "8080",
 					"path": [
 						"order",
-						"4"
+						"1"
 					],
 					"query": [
 						{
@@ -59,7 +59,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"seq\": 4,\r\n        \"totalPrice\": 400,\r\n        \"waiter\": \"Albert\",\r\n        \"mealList\": []\r\n}",
+					"raw": "{        \"seq\": 1,\r\n        \"totalPrice\": 3000,\r\n        \"waiter\": \"Bill\",\r\n        \"mealList\": [\r\n            {\r\n                \"name\": \"salmon\",\r\n                \"price\": 3000,\r\n                \"description\": \"seaFood 感恩seaFood、讚嘆seaFood\"\r\n            }\r\n        ]\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -87,7 +87,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n        \"seq\": 4,\r\n        \"totalPrice\": 400,\r\n        \"waiter\": \"albert\",\r\n        \"mealList\": []\r\n}",
+					"raw": "{       \r\n        \"seq\": 1,\r\n        \"totalPrice\": 2500,\r\n        \"waiter\": \"Bill\",\r\n        \"mealList\": [\r\n            {\r\n                \"name\": \"salmon\",\r\n                \"price\": 2500,\r\n                \"description\": \"seaFood 感恩seaFood、讚嘆seaFood\"\r\n            }\r\n        ]\r\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -95,7 +95,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/order/4",
+					"raw": "http://localhost:8080/order/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -103,7 +103,7 @@
 					"port": "8080",
 					"path": [
 						"order",
-						"4"
+						"1"
 					]
 				}
 			},
@@ -115,14 +115,15 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/order",
+					"raw": "http://localhost:8080/order/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"order"
+						"order",
+						"1"
 					]
 				}
 			},

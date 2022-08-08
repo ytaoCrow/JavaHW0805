@@ -15,7 +15,7 @@ http://localhost:8080/order/1
 # Delete Order
 http://localhost:8080/order/1
 
-## 請先 call Create Order 用以下 Json 去新增一筆餐點為：
+## 請先 call Create Order api 用以下 Json 去新增一筆餐點為：
 1. 
 ```=json
 {

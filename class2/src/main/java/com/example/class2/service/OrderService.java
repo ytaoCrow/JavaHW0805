@@ -16,11 +16,6 @@ public class OrderService{
     public OrderService (){
         this.orderList = new ArrayList<>();
 
-        MealHelper mealService1 = new MealHelper(new ArrayList<>());
-        this.orderList.add(new Order(1,3000, "Bill", mealService1.getMealList()));
-
-        MealHelper mealService2 = new MealHelper(new ArrayList<>());
-        this.orderList.add(new Order(2,4000, "Justin", mealService2.getMealList()));
     }
     public List<Order> getAllOrders() {
 

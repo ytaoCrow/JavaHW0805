@@ -10,7 +10,7 @@ public class MealHelper {
 
     public MealHelper(List<Meal> mealList){
         this.mealList = mealList;
-        mealList.add(new Meal("salmon", 3000, "seaFood 感恩seaFood、讚嘆seaFood"));
+
     }
     public List<Meal> getMealList() {
         return this.mealList;

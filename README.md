@@ -6,10 +6,10 @@ http://localhost:8080/order
 # Get Order Id
 http://localhost:8080/order/1
 
-#C reate Order
+# Create Order
 http://localhost:8080/order
 
-#U pdate Order
+# Update Order
 http://localhost:8080/order/1
 
 # Delete Order
